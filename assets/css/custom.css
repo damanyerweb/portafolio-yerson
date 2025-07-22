@@ -177,6 +177,11 @@
   .foto-perfil-menu{
     display: inline-flex;
   }
+  .foto-perfil2{
+    position: relative;
+    float: inline-end;
+    top: 7px;
+  }
   .botones{
     display: inline-block;
   }
@@ -187,6 +192,11 @@
     width: -webkit-fill-available;
     text-align: center;
   }
+  .foto-perfil2{
+    position: relative;
+    float: inline-end;
+  }
+
 }
 .enlace:hover{
   transform: scale(1.02);
