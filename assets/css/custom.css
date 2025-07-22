@@ -181,7 +181,13 @@
     display: inline-block;
   }
 }
-
+@media (max-width: 400px){
+  .botones{
+    display: inline-grid;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+}
 .enlace:hover{
   transform: scale(1.02);
 }
